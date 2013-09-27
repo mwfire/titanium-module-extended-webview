@@ -15,4 +15,8 @@
 
 }
 
+-(void)scrollTo:(id)args;
+-(void)scrollToTop:(id)args;
+-(void)scrollToBottom:(id)args;
+
 @end

@@ -7,12 +7,39 @@
  */
 
 #import "DeMwfireExtwebviewWebViewProxy.h"
+#import "DeMwfireExtwebviewWebView.h"
+
+#import "TiUtils.h"
 
 @implementation DeMwfireExtwebviewWebViewProxy
 
+
+-(void)setZoomScale:(id)value withObject:(id)animated
+{
+    TiThreadPerformOnMainThread(^{
+        [(TiUIWebView *)[self view] setZoomScale_:value withObject:animated];
+    }, YES);
+}
+
 -(void)scrollToTop:(id)args
 {
-    [[self view] performSelectorOnMainThread:@selector(scrollToTop:) withObject:args waitUntilDone:NO];
+    TiThreadPerformOnMainThread(^{
+        [(TiUIWebView *)[self view] scrollToTop:args];
+    }, YES);
+}
+
+-(void)scrollTo:(id)args
+{
+    TiThreadPerformOnMainThread(^{
+        [(TiUIWebView *)[self view] scrollTo:args];
+    }, YES);
+}
+
+-(void)scrollToBottom:(id)args
+{
+    TiThreadPerformOnMainThread(^{
+        [(TiUIWebView *)[self view] scrollToBottom:args];
+    }, YES);
 }
 
 @end

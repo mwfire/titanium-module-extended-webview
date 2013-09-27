@@ -1,10 +1,18 @@
-# ExtendedWebView Module 0.1
+# ExtendedWebView Module 0.2
 
 ## Description
 
-This module extends the original Ti.UI.WebView by adding the methods `setZoomLevel()` and `scrollToTop()`
+This module extends the original Ti.UI.WebView by adding several new features.
+
+## Installation
+Extract the *.zip file in the root of this package.<br>
+Copy the module to your Titanium module folder, typically
+
+    ~/Library/Application Support/Titanium/modules
+    
+
  
-## Accessing the ExtendedWebView Module
+## Accessing the Module
 
 To access this module from JavaScript, you would do the following:
 
@@ -14,19 +22,46 @@ The extendedWebView variable is a reference to the Module object.
 
 ## Reference
 
-**setZoomLevel(float)**
-Sets the zoom level of a WebView. Must contain int/floats.
-Use setZoomLevel(0) to reset zoom.
+`setZoomScale(float, { animated: BOOL })`<br>
+Sets the zoom level of a WebView.<br>
+*float* optional, defaults to 0<br>
+*animated* optional, defaults to TRUE
+
+`scrollTo({ x:float, y:float, animated: BOOL })`<br>
+Sets the zoom level of a WebView.<br>
+*x* optional, defaults to 0<br>
+*y* optional, defaults to 0<br>
+*animated* optional, defaults to TRUE
     
-**scrollToTop()**
-Scrolls to the top of a WebView.
+`scrollToTop({ animated: BOOL })`<br>
+Scrolls to the top of a WebView.<br>
+*animated* optional, defaults to TRUE
+
+`scrollToBottom({ animated: BOOL })`<br>
+Scrolls to the bottom of a WebView.<br>
+*animated* optional, defaults to TRUE
 
 ## Usage
 
-See the example app.js for usage.
+Create an extended webview like in this example and add it to your window
+
+    var extendedWebView = require("de.mwfire.extwebview");
+    var webView = extendedWebView.createWebView({
+        left            : 0,
+        right           : 0,
+        top             : 0,
+        bottom          : 140,
+        url             : "http://www.mwfire.de",
+        scalesPageToFit : true
+    });
+    win.add(webView);
+
+For method usage, see the example app.js.
 
 ## Platform
-Up to now, only iPhone is supported.
+Up to now, only iPhone is supported.<br>
+Minimum Titanium SDK is 3.1.0.GA<br>
+Supports iOS6 and later 
 
 ## Author
 
