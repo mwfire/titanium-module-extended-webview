@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.5.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: Extends Ti.UI.WebView with several methods
+author: Martin Wildfeuer
+license: www.gnu.org/copyleft/gpl.html
+copyright: Copyright (c) 2015 by mwfire development
+
+# these should not be edited
+name: ExtWebView
+moduleid: de.mwfire.extwebview
+guid: 1c0e017c-a06e-4842-9c53-fc75c8019a5f
+platform: iphone
+minsdk: 3.5.0.GA

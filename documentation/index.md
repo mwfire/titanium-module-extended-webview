@@ -1,74 +1,39 @@
-# ExtendedWebView Module 0.2
+# ExtWebView Module
 
 ## Description
 
-This module extends the original Ti.UI.WebView by adding several new features.
+TODO: Enter your module description here
 
-## Installation
-Extract the *.zip file in the root of this package.<br>
-Copy the module to your Titanium module folder, typically
-
-    ~/Library/Application Support/Titanium/modules
-    
-
- 
-## Accessing the Module
+## Accessing the ExtWebView Module
 
 To access this module from JavaScript, you would do the following:
 
-	var extendedWebView = require("de.mwfire.extwebview");
+    var extwebview = require("de.mwfire.extwebview");
 
-The extendedWebView variable is a reference to the Module object.	
+The extwebview variable is a reference to the Module object.
 
 ## Reference
 
-`setZoomScale(float, { animated: BOOL })`<br>
-Sets the zoom level of a WebView.<br>
-*float* optional, defaults to 0<br>
-*animated* optional, defaults to TRUE
+TODO: If your module has an API, you should document
+the reference here.
 
-`scrollTo({ x:float, y:float, animated: BOOL })`<br>
-Sets the zoom level of a WebView.<br>
-*x* optional, defaults to 0<br>
-*y* optional, defaults to 0<br>
-*animated* optional, defaults to TRUE
-    
-`scrollToTop({ animated: BOOL })`<br>
-Scrolls to the top of a WebView.<br>
-*animated* optional, defaults to TRUE
+### extwebview.function
 
-`scrollToBottom({ animated: BOOL })`<br>
-Scrolls to the bottom of a WebView.<br>
-*animated* optional, defaults to TRUE
+TODO: This is an example of a module function.
+
+### extwebview.property
+
+TODO: This is an example of a module property.
 
 ## Usage
 
-Create an extended webview like in this example and add it to your window
-
-    var extendedWebView = require("de.mwfire.extwebview");
-    var webView = extendedWebView.createWebView({
-        left            : 0,
-        right           : 0,
-        top             : 0,
-        bottom          : 140,
-        url             : "http://www.mwfire.de",
-        scalesPageToFit : true
-    });
-    win.add(webView);
-
-For method usage, see the example app.js.
-
-## Platform
-Up to now, only iPhone is supported.<br>
-Minimum Titanium SDK is 3.1.0.GA<br>
-Supports iOS6 and later 
+TODO: Enter your usage example here
 
 ## Author
 
-© 2013 Martin Wildfeuer<br>
-mwfire web development<br>
-[www.mwfire.de](http://www.mwfire.de)
+TODO: Enter your author name, email and other contact
+details you want to share here.
 
 ## License
 
-Licensed under the Apache License, Version 2.0 (the "License")
+TODO: Enter your license/legal information here.

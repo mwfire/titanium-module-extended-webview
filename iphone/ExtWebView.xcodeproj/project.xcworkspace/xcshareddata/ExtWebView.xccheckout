@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D2D59E5F-D3D6-460B-BB44-AF5F184DBDD5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ExtWebView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5477D8292C503B2F7EBECE8A3AE43FC696073FCF</key>
+		<string>https://github.com/mwfire/titanium-module-extended-webview.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iphone/ExtWebView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5477D8292C503B2F7EBECE8A3AE43FC696073FCF</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mwfire/titanium-module-extended-webview.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5477D8292C503B2F7EBECE8A3AE43FC696073FCF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5477D8292C503B2F7EBECE8A3AE43FC696073FCF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ExtWebView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

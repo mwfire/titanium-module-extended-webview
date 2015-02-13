@@ -1,3 +1,11 @@
 tmp
 bin
 build
+ExtendedWebView.xcodeproj/xcuserdata/mwfire.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+ExtendedWebView.xcodeproj/xcuserdata/mwfire.xcuserdatad/xcschemes/Build & Test.xcscheme
+ExtendedWebView.xcodeproj/xcuserdata/mwfire.xcuserdatad/xcschemes/ExtendedWebView.xcscheme
+ExtendedWebView.xcodeproj/xcuserdata/mwfire.xcuserdatad/xcschemes/xcschememanagement.plist
+ExtendedWebView.xcodeproj/project.xcworkspace/xcuserdata/mwfire.xcuserdatad/UserInterfaceState.xcuserstate
+.DS_Store
+.settings
+.project
