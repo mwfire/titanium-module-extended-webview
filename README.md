@@ -22,7 +22,7 @@ In Titanium Studio, add the module to your project. Open tiapp.xml and click the
 
 ## Reference
 
-`setZoomScale(float, { animated: BOOL })`<br>
+`setZoomScale(float)`<br>
 Sets the zoom level of a WebView.<br>
 *float* required, 0.0 is standard zoom
 
